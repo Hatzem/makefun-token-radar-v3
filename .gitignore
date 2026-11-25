@@ -1,0 +1,17 @@
+# Token Radar v3 — never stage secrets, credentials, or build outputs.
+# The keypair and the API key live outside this repo and must never be committed.
+makefun-keypair.json
+*.pem
+*.key
+.env
+.env.*
+credentials
+.credentials
+**/credentials
+**/.makefun/credentials
+node_modules/
+*.tar.gz
+*.tgz
+out/
+dist/
+.DS_Store
